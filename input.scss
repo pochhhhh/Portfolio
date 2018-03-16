@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+	width:100vw;
+    text-align: center;
+}
+
+section{
+
+background:blue;
+margin-top:15px;
+height:400px;
+width:100vw;
+
+
+}
+
+
+#selfie{
+
+margin: auto;
+height:250px;
+max-width:250px;
+
+img{
+
+height:100%;
+width:100%;
+
+}
+
+}
+
+#homepage-menu{
+
+background:yellow;
+display:grid;
+height:400px;
+grid-template-columns:1fr 1fr;
+
+
+
+
+}
+
+.menu-grid-item{
+
+background:lime;
+margin:10px;
+
+
+
+}
+
+
+#footer-list{
+
+height:70px;
+max-width:300px;
+background:blue;
+margin: 0 auto;
+display:grid;
+grid-template-columns: repeat(4, 1fr);
+
+}
+
+.footer-list-item{
+
+background:orange;
+width:90%;
+height:30px;
+margin: 0 auto;
+position:relative;
+top:20px;
+
+
+}
