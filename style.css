@@ -1,7 +1,9 @@
 body {
-  margin: 0;
+  margin: 0 !important;
   width: 100vw;
-  text-align: center; }
+  text-align: center;
+  overflow-x: hidden;
+  padding-right: 10px; }
 
 section {
   margin-top: 15px;
@@ -11,7 +13,7 @@ section {
 #selfie {
   margin: auto;
   height: 250px;
-  width: 90%; }
+  width: 240px; }
   #selfie img {
     height: 100%;
     width: 100%; }
@@ -19,7 +21,8 @@ section {
 #homepage-menu {
   display: grid;
   height: 650px;
-  grid-template-columns: repeat(2, 1fr); }
+  grid-template-columns: repeat(2, 1fr);
+  padding-right: 15px; }
   #homepage-menu a {
     text-decoration: none; }
 
@@ -38,8 +41,14 @@ section {
     z-index: 0;
     font-family: 'Handlee', cursive !important;
     position: relative;
-    font-size: 20px;
-    top: 30px; }
+    font-size: 22px;
+    top: 30px;
+    z-index: 1; }
+
+.fa {
+  color: white !important;
+  position: relative;
+  top: 30px; }
 
 .fader {
   transition: all 0.5s ease;
@@ -90,6 +99,11 @@ section {
   #name h3 {
     font-family: 'Timmana', sans-serif; }
 
+.navbar-brand {
+  position: relative;
+  left: 20px;
+  font-family: 'Handlee', cursive; }
+
 #footer-list {
   height: 70px;
   max-width: 300px;
@@ -106,5 +120,45 @@ section {
 
 #footer-list a {
   color: black !important; }
+
+@media (min-width: 400px) {
+  #name h1 {
+    font-size: 30px;
+    position: relative;
+    top: -10px; }
+  #name h3 {
+    position: relative;
+    top: -10px; }
+
+  #homepage-header {
+    height: 140px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    width: 90%;
+    margin: 0 auto; }
+    #homepage-header #selfie {
+      height: 140px;
+      width: 140px;
+      position: relative; }
+    #homepage-header img {
+      height: 100%; }
+    #homepage-header #name {
+      height: 100%; }
+
+  #homepage-menu {
+    height: 1300px; }
+
+  .menu-grid-item {
+    height: 250px;
+    margin: 40px; }
+    .menu-grid-item h3 {
+      position: relative;
+      top: 90px;
+      font-size: 40px;
+      text-shadow: 2px 0 black; }
+    .menu-grid-item .fa {
+      position: relative;
+      top: 100px; } }
 
 /*# sourceMappingURL=style.css.map */
