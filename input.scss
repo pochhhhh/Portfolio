@@ -217,6 +217,18 @@ color:black !important;
 }
 
 
+
+#secondary-header{
+
+width:100vw;
+height:300px;
+background:blue;
+
+}
+
+
+/* Homepage Media Queries */
+
 @media(min-width:400px){
 
 #name{
@@ -304,6 +316,81 @@ top:100px;
 }
 
 }
+
+
+}
+
+
+
+
+/*About Page Mobile First*/
+
+
+
+
+
+
+
+
+
+/*About Media Queries*/
+
+
+
+@media(min-width:400px){
+
+#about-info{
+
+background:green;
+width:100vw;
+display:grid;
+grid-template-columns: 1fr 2fr;
+
+
+}
+
+#interactive-panel{
+
+background:cyan;
+display:grid;
+grid-template-columns: 3fr 1fr;
+
+.photo{
+
+background:pink;
+grid-column-start: 1;
+grid-column-end: 1;
+grid-row-start: 1;
+grid-row-end: 5;
+
+}
+
+.button{
+
+background:yellow;
+
+}
+
+.button2{
+
+grid-column-start:2;
+
+}
+
+.button3{
+
+grid-column-start:2;
+
+}
+
+.button4{
+
+grid-column-start:2;
+
+}
+
+}
+
 
 
 }
