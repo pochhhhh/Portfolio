@@ -125,17 +125,17 @@ section {
   #name h1 {
     font-size: 30px;
     position: relative;
-    top: -10px; }
+    top: 30px; }
   #name h3 {
     position: relative;
-    top: -10px; }
+    top: 20px; }
 
   #homepage-header {
     height: 140px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: repeat(2, 1fr);
-    width: 90%;
+    max-width: 80vw;
     margin: 0 auto; }
     #homepage-header #selfie {
       height: 140px;
@@ -147,7 +147,9 @@ section {
       height: 100%; }
 
   #homepage-menu {
-    height: 1300px; }
+    height: 1300px;
+    max-width: 80vw;
+    margin: 0 auto; }
 
   .menu-grid-item {
     height: 250px; }
