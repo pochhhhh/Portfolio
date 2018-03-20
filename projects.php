@@ -5,8 +5,7 @@
 
 <?php require("header.php");?>
 
-
-About
+Projects
 
 </body>
 
