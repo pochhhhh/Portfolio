@@ -5,9 +5,8 @@
 
 <?php require("header.php");?>
 
-About
 
-<section id="secondary-header"></section>
+<section id="secondary-header">About</section>
 
 
 <section id="about-info">
@@ -16,30 +15,30 @@ About
 <div id="interactive-panel">
 
 <div class="photo">
-
+Photo
 <img>
 
 </div>
 
 <div class="button button1">
 
-
+X
 
 </div>
 
 <div class="button button2">
-
+X
 
 </div>
 
 <div class="button button3">
 
-
+X
 </div>
 
 <div class="button button4">
 
-
+X
 
 </div>
 

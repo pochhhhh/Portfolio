@@ -2,8 +2,7 @@ body {
   margin: 0 !important;
   width: 100vw;
   text-align: center;
-  overflow-x: hidden;
-  padding-right: 10px; }
+  overflow-x: hidden; }
 
 section {
   margin-top: 15px;
@@ -168,10 +167,37 @@ section {
       position: relative;
       top: 100px; } }
 /*About Page Mobile First*/
+#secondary-header {
+  background: orange;
+  height: 120px;
+  position: relative;
+  bottom: 20px; }
+
+#about-info {
+  background: red;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 80%;
+  height: 600px;
+  margin: 0 auto; }
+
+#interactive-panel {
+  background: yellow;
+  display: grid; }
+  #interactive-panel .photo {
+    background: pink;
+    grid-column-start: 1;
+    grid-column-end: 5; }
+  #interactive-panel .button {
+    background: cyan;
+    grid-row-start: 7; }
+
 /*About Media Queries*/
 @media (min-width: 400px) {
   #about-info {
-    background: green;
+    background: lime;
+    height: 400px;
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr 2fr; }
