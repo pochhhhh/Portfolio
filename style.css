@@ -1,8 +1,7 @@
 body {
   margin: 0 !important;
   width: 100vw;
-  text-align: center;
-  overflow-x: hidden; }
+  text-align: center; }
 
 section {
   margin-top: 15px;
@@ -120,11 +119,6 @@ section {
 #footer-list a {
   color: black !important; }
 
-#secondary-header {
-  width: 100vw;
-  height: 300px;
-  background: blue; }
-
 /* Homepage Media Queries */
 @media (min-width: 400px) {
   #name h1 {
@@ -168,30 +162,55 @@ section {
       top: 100px; } }
 /*About Page Mobile First*/
 #secondary-header {
-  background: orange;
+  background: cyan;
   height: 120px;
   position: relative;
   bottom: 20px; }
 
 #about-info {
-  background: red;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   width: 80%;
   height: 600px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background: #EEEEEE; }
 
 #interactive-panel {
-  background: yellow;
   display: grid; }
   #interactive-panel .photo {
-    background: pink;
     grid-column-start: 1;
-    grid-column-end: 5; }
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    padding: 10px; }
+    #interactive-panel .photo img {
+      height: 100%;
+      width: 100%; }
   #interactive-panel .button {
-    background: cyan;
-    grid-row-start: 7; }
+    background: #4B4B4B;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    margin: 5px;
+    height: 60px; }
+    #interactive-panel .button .fa {
+      position: relative;
+      top: 15px; }
+
+#info-text-box {
+  display: grid; }
+  #info-text-box p {
+    grid-column-start: 1;
+    grid-column-end: 2; }
+  #info-text-box .button {
+    height: 50px;
+    width: 100px;
+    margin: 0 auto;
+    background: #4B4B4B; }
+    #info-text-box .button p {
+      color: white;
+      position: relative;
+      top: 15px; }
 
 /*About Media Queries*/
 @media (min-width: 400px) {
@@ -212,8 +231,6 @@ section {
       grid-column-end: 1;
       grid-row-start: 1;
       grid-row-end: 5; }
-    #interactive-panel .button {
-      background: yellow; }
     #interactive-panel .button2 {
       grid-column-start: 2; }
     #interactive-panel .button3 {

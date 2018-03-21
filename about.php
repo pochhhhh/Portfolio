@@ -15,30 +15,39 @@
 <div id="interactive-panel">
 
 <div class="photo">
-Photo
-<img>
+
+<img src="images/selfie.jpeg">
 
 </div>
 
 <div class="button button1">
 
-X
+<i class="fa fa-wrench fa-2"></i>
+<i class="fa fa-paint-brush fa-2x"></i>
+
+
 
 </div>
 
 <div class="button button2">
-X
+
+<i class="fa fa-map-marker fa-2x"></i>
 
 </div>
 
 <div class="button button3">
 
-X
+<i class="fa fa-star fa-2x"></i>
+
+
+
 </div>
 
 <div class="button button4">
 
-X
+<i class="fa fa-coffee fa-2x"></i>
+
+
 
 </div>
 
@@ -47,10 +56,10 @@ X
 
 <div id="info-text-box">
 
-<p>I'm a front end developer aspiring to become a badman full stack.</p>
+<p>I'm a wannabe badman full stack developer. I'm a wannabe badman full stack developer. I'm a wannabe badman full stack developer. I'm a wannabe badman full stack developer. I'm a wannabe badman full stack developer.</p>
 
 
-<button>More</button>
+<div class="button"><p>More</p></div>
 
 
 </div>

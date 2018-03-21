@@ -2,7 +2,8 @@ body {
     margin: 0 !important;
 	width:100vw;
     text-align: center;
-	overflow-x:hidden;
+
+
 
 }
 
@@ -217,16 +218,6 @@ color:black !important;
 }
 
 
-
-#secondary-header{
-
-width:100vw;
-height:300px;
-background:blue;
-
-}
-
-
 /* Homepage Media Queries */
 
 @media(min-width:400px){
@@ -326,8 +317,7 @@ top:100px;
 /*About Page Mobile First*/
 
 #secondary-header{
-
-background:orange;
+background:cyan;
 height:120px;
 position:relative;
 bottom:20px;
@@ -337,26 +327,35 @@ bottom:20px;
 
 #about-info{
 
-background:red;
 display:grid;
 grid-template-columns:1fr;
 grid-template-rows:1fr 1fr;
 width:80%;
 height:600px;
 margin: 0 auto;
+background:#EEEEEE;
 }
 
 #interactive-panel{
 
-background:yellow;
 display:grid;
 
 
 .photo{
 
-background:pink;
 grid-column-start:1;
 grid-column-end:5;
+grid-row-start:1;
+grid-row-end:5;
+padding:10px;
+
+img{
+
+height:100%;
+width:100%;
+
+
+}
 
 
 
@@ -364,8 +363,56 @@ grid-column-end:5;
 
 .button{
 
-background:cyan;
-grid-row-start:7;
+background:#4B4B4B;
+grid-row-start:6;
+grid-row-end:6;
+margin:5px;
+height:60px;
+
+.fa{
+
+position:relative;
+top:15px;
+
+}
+
+
+
+}
+
+}
+
+#info-text-box{
+
+
+display:grid;
+
+p{
+
+grid-column-start:1;
+grid-column-end: 2;
+
+}
+
+.button{
+
+height:50px;
+width:100px;
+margin: 0 auto;
+background:#4B4B4B;
+
+p{
+
+color:white;
+position:relative;
+top:15px;
+
+
+}
+
+
+
+
 
 }
 
@@ -410,7 +457,7 @@ grid-row-end: 5;
 
 .button{
 
-background:yellow;
+
 
 }
 
