@@ -120,7 +120,7 @@ section {
   color: black !important; }
 
 /* Homepage Media Queries */
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   #name h1 {
     font-size: 30px;
     position: relative;
@@ -162,7 +162,6 @@ section {
       top: 100px; } }
 /*About Page Mobile First*/
 #secondary-header {
-  background: cyan;
   height: 120px;
   position: relative;
   bottom: 20px; }
@@ -172,70 +171,85 @@ section {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   width: 80%;
-  height: 600px;
+  height: 700px;
   margin: 0 auto;
   background: #EEEEEE; }
 
 #interactive-panel {
-  display: grid; }
+  display: grid;
+  grid-template-columns: 1fr; }
   #interactive-panel .photo {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 5;
-    padding: 10px; }
+    margin: 5px; }
     #interactive-panel .photo img {
       height: 100%;
       width: 100%; }
+  #interactive-panel .button-panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; }
   #interactive-panel .button {
     background: #4B4B4B;
-    grid-row-start: 6;
-    grid-row-end: 6;
     margin: 5px;
     height: 60px; }
     #interactive-panel .button .fa {
       position: relative;
       top: 15px; }
+    #interactive-panel .button .fa-wrench {
+      position: relative;
+      top: 5px; }
+    #interactive-panel .button .fa-paint-brush {
+      position: relative;
+      top: 2px; }
 
 #info-text-box {
   display: grid; }
-  #info-text-box p {
-    grid-column-start: 1;
-    grid-column-end: 2; }
   #info-text-box .button {
-    height: 50px;
+    background: #4B4B4B;
     width: 100px;
-    margin: 0 auto;
-    background: #4B4B4B; }
+    height: 60px;
+    margin: 0 auto; }
     #info-text-box .button p {
-      color: white;
-      position: relative;
-      top: 15px; }
+      color: white; }
+  #info-text-box p {
+    margin-top: 20px; }
 
 /*About Media Queries*/
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   #about-info {
-    background: lime;
-    height: 400px;
-    width: 100vw;
+    height: 330px;
+    width: 90vw;
     display: grid;
-    grid-template-columns: 1fr 2fr; }
+    grid-template-columns: 1fr 1fr; }
 
   #interactive-panel {
-    background: cyan;
     display: grid;
-    grid-template-columns: 3fr 1fr; }
+    height: 270px;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr;
+    max-width: 80vw; }
     #interactive-panel .photo {
-      background: pink;
       grid-column-start: 1;
-      grid-column-end: 1;
-      grid-row-start: 1;
-      grid-row-end: 5; }
-    #interactive-panel .button2 {
-      grid-column-start: 2; }
-    #interactive-panel .button3 {
-      grid-column-start: 2; }
-    #interactive-panel .button4 {
-      grid-column-start: 2; } }
+      grid-column-end: 1; }
+      #interactive-panel .photo img {
+        max-height: 100%; }
+    #interactive-panel .button-panel {
+      display: grid;
+      grid-template-columns: 1fr; } }
+@media (min-width: 768px) {
+  #about-info {
+    background: blue;
+    height: 400px; }
+
+  #interactive-panel {
+    background: yellow;
+    height: 400px; }
+    #interactive-panel .button {
+      background: red;
+      height: 90px; }
+      #interactive-panel .button .fa {
+        position: relative;
+        top: 30px; }
+
+  .button-panel {
+    background: pink; } }
 
 /*# sourceMappingURL=style.css.map */

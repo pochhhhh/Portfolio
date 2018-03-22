@@ -20,9 +20,11 @@
 
 </div>
 
+<div class="button-panel">
+
 <div class="button button1">
 
-<i class="fa fa-wrench fa-2"></i>
+<i class="fa fa-wrench fa-2x"></i>
 <i class="fa fa-paint-brush fa-2x"></i>
 
 
@@ -48,6 +50,8 @@
 <i class="fa fa-coffee fa-2x"></i>
 
 
+
+</div>
 
 </div>
 
