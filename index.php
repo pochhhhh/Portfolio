@@ -32,7 +32,9 @@
 <a href="about.php">
 <div class="bg-image about"></div>
 <div class="fader"></div>
-<h3>About</h3>
+<h3><i class="fa fa-user-circle"></i>
+
+About</h3>
 </a>
 </div>
 
@@ -41,7 +43,9 @@
 <a href="#">
 <div class="bg-image blog"></div>
 <div class="fader"></div>
-<h3>Blog</h3>
+<h3><i class="fa fa-comment"></i>
+
+Blog</h3>
 </a>
 </div>
 
@@ -49,7 +53,7 @@
 <a href="contact.php">
 <div class="bg-image contact"></div>
 <div class="fader"></div>
-<h3>Contact</h3>
+<h3><i class="fa fa-envelope"></i>Contact</h3>
 </a>
 </div>
 

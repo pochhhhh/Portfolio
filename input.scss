@@ -7,6 +7,9 @@ body {
 
 }
 
+
+/*Homepage Mobile First*/
+
 section{
 
 
@@ -288,12 +291,19 @@ margin: 0 auto;
 height:250px;
 
 
+
 h3{
 
 position:relative;
 top:90px;
 font-size:40px;
 text-shadow: 2px 0 black;
+
+i{
+position:relative;
+top:0px !important;
+right:5px;
+}
 
 
 }
@@ -317,11 +327,12 @@ top:100px;
 
 /*About Page Mobile First*/
 
-#secondary-header{
+#about-title-header{
 
 height:120px;
 position:relative;
 bottom:20px;
+background:lime;
 
 
 }
@@ -412,6 +423,9 @@ margin: 0 auto;
 p{
 
 color:white;
+text-align:center;
+position:relative;
+top:-5px;
 
 }
 
@@ -421,17 +435,14 @@ display:grid;
 
 p{
 
-margin-top:20px;
+margin:20px;
+font-family:helvetica;
+font-size:18px;
+text-align:left;
 
 }
 
-
-
-
 }
-
-
-
 
 
 /*About Media Queries*/
@@ -442,7 +453,7 @@ margin-top:20px;
 #about-info{
 
 height:330px;
-width:90vw;
+width:80vw;
 display:grid;
 grid-template-columns: 1fr 1fr;
 
@@ -485,6 +496,17 @@ grid-template-columns:1fr;
 
 }
 
+#info-text-box{
+
+p{
+
+font-size:20px;
+
+
+}
+
+}
+
 }
 
 @media(min-width:768px){
@@ -492,19 +514,19 @@ grid-template-columns:1fr;
 
 #about-info{
 
-background:blue;
+background:#EEEEEE;
 height:400px;
 
 }
 
 #interactive-panel{
 
-background:yellow;
+background:#EEEEEE;
 height:400px;
 
 .button{
 
-background:red;
+background:#4B4B4B;
 height:90px;
 
 .fa{
@@ -513,19 +535,45 @@ position:relative;
 top:30px;
 
 }
-
 }
-
 
 }
 
 .button-panel{
 
-background:pink;
+background:#EEEEEE;
 
 }
 
 
+}
+
+/*Projects Mobile First*/
+
+#projects-title-header{
+
+height:120px;
+position:relative;
+bottom:20px;
+background:yellow;
+
+}
+
+#project-list{
+
+background:green;
+display:grid;
+height:1200px;
+grid-template-columns:1fr;
+
+}
+
+.project-item{
+
+background:cyan;
+height:180px;
+margin: 0 auto;
+width:280px;
 
 
 }

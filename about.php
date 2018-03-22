@@ -6,7 +6,7 @@
 <?php require("header.php");?>
 
 
-<section id="secondary-header">About</section>
+<section id="about-title-header">About</section>
 
 
 <section id="about-info">
@@ -60,7 +60,7 @@
 
 <div id="info-text-box">
 
-<p>I'm a wannabe badman full stack developer. I'm a wannabe badman full stack developer. I'm a wannabe badman full stack developer. I'm a wannabe badman full stack developer. I'm a wannabe badman full stack developer.</p>
+<p>I'm a front end developer learning to become a badman fullstack. I enjoy working with JavaScript and PHP.</p>
 
 
 <div class="button"><p>More</p></div>

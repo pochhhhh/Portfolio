@@ -3,6 +3,7 @@ body {
   width: 100vw;
   text-align: center; }
 
+/*Homepage Mobile First*/
 section {
   margin-top: 15px;
   height: 400px;
@@ -157,14 +158,19 @@ section {
       top: 90px;
       font-size: 40px;
       text-shadow: 2px 0 black; }
+      .menu-grid-item h3 i {
+        position: relative;
+        top: 0px !important;
+        right: 5px; }
     .menu-grid-item .fa {
       position: relative;
       top: 100px; } }
 /*About Page Mobile First*/
-#secondary-header {
+#about-title-header {
   height: 120px;
   position: relative;
-  bottom: 20px; }
+  bottom: 20px;
+  background: lime; }
 
 #about-info {
   display: grid;
@@ -208,15 +214,21 @@ section {
     height: 60px;
     margin: 0 auto; }
     #info-text-box .button p {
-      color: white; }
+      color: white;
+      text-align: center;
+      position: relative;
+      top: -5px; }
   #info-text-box p {
-    margin-top: 20px; }
+    margin: 20px;
+    font-family: helvetica;
+    font-size: 18px;
+    text-align: left; }
 
 /*About Media Queries*/
 @media (min-width: 480px) {
   #about-info {
     height: 330px;
-    width: 90vw;
+    width: 80vw;
     display: grid;
     grid-template-columns: 1fr 1fr; }
 
@@ -233,23 +245,44 @@ section {
         max-height: 100%; }
     #interactive-panel .button-panel {
       display: grid;
-      grid-template-columns: 1fr; } }
+      grid-template-columns: 1fr; }
+
+  #info-text-box p {
+    font-size: 20px; } }
 @media (min-width: 768px) {
   #about-info {
-    background: blue;
+    background: #EEEEEE;
     height: 400px; }
 
   #interactive-panel {
-    background: yellow;
+    background: #EEEEEE;
     height: 400px; }
     #interactive-panel .button {
-      background: red;
+      background: #4B4B4B;
       height: 90px; }
       #interactive-panel .button .fa {
         position: relative;
         top: 30px; }
 
   .button-panel {
-    background: pink; } }
+    background: #EEEEEE; } }
+/*Projects Mobile First*/
+#projects-title-header {
+  height: 120px;
+  position: relative;
+  bottom: 20px;
+  background: yellow; }
+
+#project-list {
+  background: green;
+  display: grid;
+  height: 1200px;
+  grid-template-columns: 1fr; }
+
+.project-item {
+  background: cyan;
+  height: 180px;
+  margin: 0 auto;
+  width: 280px; }
 
 /*# sourceMappingURL=style.css.map */
