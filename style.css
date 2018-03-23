@@ -20,8 +20,7 @@ section {
 #homepage-menu {
   display: grid;
   height: 650px;
-  grid-template-columns: repeat(2, 1fr);
-  padding-right: 15px; }
+  grid-template-columns: repeat(2, 1fr); }
   #homepage-menu a {
     text-decoration: none; }
 
@@ -31,6 +30,9 @@ section {
   position: relative;
   z-index: 1;
   height: 120px; }
+  .menu-grid-item .fa-4x {
+    position: relative;
+    top: 35px; }
   .menu-grid-item h3 {
     color: white;
     text-align: center;
@@ -47,7 +49,7 @@ section {
 .fa {
   color: white !important;
   position: relative;
-  top: 30px; }
+  top: 0px; }
 
 .fader {
   transition: all 0.5s ease;
@@ -158,7 +160,7 @@ section {
     .menu-grid-item h3 {
       position: relative;
       top: 90px;
-      font-size: 20px;
+      font-size: 30px;
       text-shadow: 2px 0 black; }
       .menu-grid-item h3 i {
         position: relative;
