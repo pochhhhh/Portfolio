@@ -147,16 +147,18 @@ section {
       height: 100%; }
 
   #homepage-menu {
-    height: 1300px;
+    height: 700px;
     max-width: 80vw;
-    margin: 0 auto; }
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr); }
 
   .menu-grid-item {
     height: 250px; }
     .menu-grid-item h3 {
       position: relative;
       top: 90px;
-      font-size: 40px;
+      font-size: 20px;
       text-shadow: 2px 0 black; }
       .menu-grid-item h3 i {
         position: relative;
@@ -164,7 +166,37 @@ section {
         right: 5px; }
     .menu-grid-item .fa {
       position: relative;
-      top: 100px; } }
+      top: 50px; }
+
+  .grid-item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3; }
+
+  .grid-item-2 {
+    grid-column-start: 3;
+    grid-column-end: 5; }
+
+  .grid-item-3 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3; }
+
+  .grid-item-4 {
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-column-end: 5; }
+
+  .grid-item-5 {
+    height: 140px; }
+
+  .grid-item-6 {
+    height: 140px; }
+
+  .grid-item-7 {
+    height: 140px; }
+
+  .grid-item-8 {
+    height: 140px; } }
 /*About Page Mobile First*/
 #about-title-header {
   height: 120px;

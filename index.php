@@ -28,7 +28,7 @@
 <section id="homepage-menu">
 
 
-<div class="menu-grid-item">
+<div class="menu-grid-item grid-item-1">
 <a href="about.php">
 <div class="bg-image about"></div>
 <div class="fader"></div>
@@ -39,7 +39,7 @@ About</h3>
 </div>
 
 
-<div class="menu-grid-item">
+<div class="menu-grid-item grid-item-2">
 <a href="#">
 <div class="bg-image blog"></div>
 <div class="fader"></div>
@@ -49,7 +49,7 @@ Blog</h3>
 </a>
 </div>
 
-<div class="menu-grid-item">
+<div class="menu-grid-item grid-item-3">
 <a href="contact.php">
 <div class="bg-image contact"></div>
 <div class="fader"></div>
@@ -58,7 +58,7 @@ Blog</h3>
 </div>
 
 
-<div class="menu-grid-item">
+<div class="menu-grid-item grid-item-4">
 <a href="projects.php">
 <div class="bg-image projects"></div>
 <div class="fader"></div>
@@ -66,7 +66,7 @@ Blog</h3>
 </a>
 </div>
 
-<div class="menu-grid-item">
+<div class="menu-grid-item grid-item-5">
 <a href="https://www.freecodecamp.org/pochhhhh" target="_blank">
 <div class="bg-image"></div>
 <div class="fader"></div>
@@ -75,7 +75,7 @@ Blog</h3>
 </div>
 
 
-<div class="menu-grid-item">
+<div class="menu-grid-item grid-item-6">
 <a href="https://codepen.io/pochhhhh/" target="_blank">
 <div class="bg-image"></div>
 <div class="fader"></div>
@@ -83,7 +83,7 @@ Blog</h3>
 </a>
 </div>
 
-<div class="menu-grid-item">
+<div class="menu-grid-item grid-item-7">
 <a href="https://github.com/pochhhhh" target="_blank">
 <div class="bg-image"></div>
 <div class="fader"></div>
@@ -94,7 +94,7 @@ Blog</h3>
 </div>
 
 
-<div class="menu-grid-item">
+<div class="menu-grid-item grid-item-8">
 <a href="#">
 <div class="bg-image"></div>
 <div class="fader"></div>
