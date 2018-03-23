@@ -17,6 +17,7 @@ width:100vw;
 
 
 
+
 }
 
 
@@ -621,13 +622,19 @@ background:#EEEEEE;
 height:120px;
 position:relative;
 bottom:20px;
-background:yellow;
+background:linear-gradient(blue, green);
+
+h1{
+
+position:relative;
+top:40px;
+color:white;
+}
 
 }
 
 #project-list{
 
-background:green;
 display:grid;
 height:auto;
 grid-template-columns:1fr;
@@ -641,10 +648,16 @@ grid-gap:10px;
 
 background:orange;
 height:45vw;
-overflow:auto;
 margin: 0 auto;
 width:95%;
 margin-top:20px;
+
+img{
+
+height:100%;
+width:100%;
+
+}
 
 
 
@@ -662,17 +675,33 @@ margin: 0 auto;
 
 }
 
+.project-hover{
+
+
+
+}
+
 
 .project-item{
 
-background:blue;
+background:none;
 max-height:250px;
-height:40vw;
+&:hover{
+
+opacity:0.3;
+
+}
+
+
+
+
 
 img{
 
 height:100%;
 width:100%;
+
+
 
 }
 }

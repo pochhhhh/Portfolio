@@ -305,10 +305,13 @@ section {
   height: 120px;
   position: relative;
   bottom: 20px;
-  background: yellow; }
+  background: linear-gradient(blue, green); }
+  #projects-title-header h1 {
+    position: relative;
+    top: 40px;
+    color: white; }
 
 #project-list {
-  background: green;
   display: grid;
   height: auto;
   grid-template-columns: 1fr;
@@ -319,10 +322,12 @@ section {
 .project-item {
   background: orange;
   height: 45vw;
-  overflow: auto;
   margin: 0 auto;
   width: 95%;
   margin-top: 20px; }
+  .project-item img {
+    height: 100%;
+    width: 100%; }
 
 /*Projects Media Queries*/
 @media (min-width: 1024px) {
@@ -332,9 +337,10 @@ section {
     margin: 0 auto; }
 
   .project-item {
-    background: blue;
-    max-height: 250px;
-    height: 40vw; }
+    background: none;
+    max-height: 250px; }
+    .project-item:hover {
+      opacity: 0.3; }
     .project-item img {
       height: 100%;
       width: 100%; } }
