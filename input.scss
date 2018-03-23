@@ -563,17 +563,46 @@ background:yellow;
 
 background:green;
 display:grid;
-height:1200px;
+height:auto;
 grid-template-columns:1fr;
+width:100vw;
+margin: 0 auto;
+grid-gap:10px;
 
 }
 
 .project-item{
 
-background:cyan;
-height:180px;
+background:orange;
+height:45vw;
+overflow:auto;
 margin: 0 auto;
-width:280px;
+width:95%;
+margin-top:20px;
+
+
+
+}
+
+/*Projects Media Queries*/
+
+@media(min-width:1024px){
+
+#project-list{
+
+grid-template-columns:1fr 1fr;
+width:95vw;
+margin: 0 auto;
+
+}
+
+
+.project-item{
+
+background:blue;
+max-height:250px;
+height:40vw;
+}
 
 
 }
