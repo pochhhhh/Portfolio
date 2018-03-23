@@ -12,15 +12,15 @@
 
 <section id="project-list">
 
-<div class="project-item">Project 1</div>
+<div class="project-item"><img src="https://preview.ibb.co/kTSw1w/Screen_Shot_2018_01_21_at_11_24_44.png"></div>
 
-<div class="project-item">Project 2</div>
+<div class="project-item"><img src="https://preview.ibb.co/jw2tEG/biggytravels.png"></div>
 
-<div class="project-item">Project 3</div>
+<div class="project-item"><img src="https://preview.ibb.co/b7bpMw/Screen_Shot_2018_01_21_at_11_34_10.png"></div>
 
-<div class="project-item">Project 4</div>
+<div class="project-item"><img src="https://preview.ibb.co/iGdQuG/Screen_Shot_2018_01_21_at_11_41_27.png"></div>
 
-<div class="project-item">Project 5</div>
+<div class="project-item"><img src="https://image.ibb.co/ekkEkS/portfolio.png"></div>
 
 
 </section>

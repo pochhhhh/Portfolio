@@ -334,6 +334,9 @@ section {
   .project-item {
     background: blue;
     max-height: 250px;
-    height: 40vw; } }
+    height: 40vw; }
+    .project-item img {
+      height: 100%;
+      width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
