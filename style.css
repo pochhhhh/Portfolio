@@ -313,36 +313,29 @@ section {
 
 #project-list {
   display: grid;
-  height: auto;
   grid-template-columns: 1fr;
-  width: 100vw;
-  margin: 0 auto;
-  grid-gap: 10px; }
-
-.project-item {
-  background: orange;
-  height: 45vw;
-  margin: 0 auto;
-  width: 95%;
-  margin-top: 20px; }
-  .project-item img {
+  grid-gap: 10px;
+  height: auto;
+  width: 80vw;
+  margin: 0 auto; }
+  #project-list .box {
+    margin: 0 auto;
+    height: 30vh;
+    width: 80vw; }
+    #project-list .box h1 {
+      font-family: helvetica;
+      color: black; }
+  #project-list .project-image {
     height: 100%;
-    width: 100%; }
+    width: 100%;
+    background-size: 100% 100%;
+    opacity: 0.6; }
 
-/*Projects Media Queries*/
-@media (min-width: 1024px) {
-  #project-list {
-    grid-template-columns: 1fr 1fr;
-    width: 95vw;
-    margin: 0 auto; }
-
-  .project-item {
-    background: none;
-    max-height: 250px; }
-    .project-item:hover {
-      opacity: 0.3; }
-    .project-item img {
-      height: 100%;
-      width: 100%; } }
+.hover-layer {
+  height: 30vh;
+  width: 80vw;
+  display: grid;
+  position: relative;
+  z-index: 1; }
 
 /*# sourceMappingURL=style.css.map */
