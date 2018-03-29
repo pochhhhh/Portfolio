@@ -24,6 +24,12 @@ section {
   #homepage-menu a {
     text-decoration: none; }
 
+.sub-header h3 {
+  position: relative;
+  top: 25px;
+  font-size: 40px;
+  color: white; }
+
 .menu-grid-item {
   margin: 10px;
   background: #4B4B4B;
@@ -100,10 +106,15 @@ section {
   #name h3 {
     font-family: 'Timmana', sans-serif; }
 
+.navbar-default {
+  box-shadow: 2px 5px #4B4B4B; }
+
 .navbar-brand {
   position: relative;
   left: 20px;
-  font-family: 'Handlee', cursive; }
+  font-family: 'Handlee', cursive;
+  color: #4B4B4B !important;
+  font-size: 20px !important; }
 
 #footer-list {
   height: 70px;
@@ -204,7 +215,8 @@ section {
   height: 120px;
   position: relative;
   bottom: 20px;
-  background: lime; }
+  background-image: url("images/about.jpeg");
+  background-size: 100% 100%; }
 
 #about-info {
   display: grid;
@@ -305,7 +317,8 @@ section {
   height: 120px;
   position: relative;
   bottom: 20px;
-  background: linear-gradient(blue, green); }
+  background-image: url("images/projects.jpeg");
+  background-size: 100% 100%; }
   #projects-title-header h1 {
     position: relative;
     top: 40px;
@@ -343,7 +356,8 @@ section {
   height: 120px;
   position: relative;
   bottom: 20px;
-  background: orange; }
+  background-image: url("images/contact.jpeg");
+  background-size: 100% 100%; }
 
 #contact-form {
   height: 500px; }
@@ -373,7 +387,7 @@ form {
     color: white;
     font-size: 20px;
     position: relative;
-    top: 20px; }
+    top: 14px; }
 
 input {
   background: #EEEEEE; }

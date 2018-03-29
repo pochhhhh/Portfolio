@@ -5,9 +5,9 @@
 
 <?php require("header.php");?>
 
-<section id="contact-title-header">
+<section class="sub-header" id="contact-title-header">
 
-Contact
+<h3><i class="fa fa-envelope"></i>Contact</h3>
 
 
 </section>

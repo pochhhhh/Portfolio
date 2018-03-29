@@ -6,7 +6,9 @@
 <?php require("header.php");?>
 
 
-<section id="about-title-header">About</section>
+<section class="sub-header" id="about-title-header"><h3><i class="fa fa-user-circle"></i>
+
+About</h3></section>
 
 
 <section id="about-info">
