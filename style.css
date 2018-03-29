@@ -338,4 +338,48 @@ section {
   position: relative;
   z-index: 1; }
 
+/* Contact page mobile first */
+#contact-title-header {
+  height: 120px;
+  position: relative;
+  bottom: 20px;
+  background: orange; }
+
+#contact-form {
+  height: 500px; }
+
+.contact-image {
+  width: 80vw;
+  height: 400px;
+  background: blue;
+  margin: 0 auto;
+  display: none; }
+
+form {
+  width: 80vw;
+  height: 500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, 1fr);
+  grid-gap: 10px; }
+  form button {
+    width: 100px;
+    margin: 0 auto; }
+
+.form-header {
+  background: #4B4B4B; }
+  .form-header p {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 20px; }
+
+input {
+  background: #EEEEEE; }
+
+textarea {
+  grid-row-start: 4;
+  grid-row-end: 7; }
+
 /*# sourceMappingURL=style.css.map */
