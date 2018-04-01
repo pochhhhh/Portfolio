@@ -476,7 +476,7 @@ textarea {
   #project-list {
     grid-template-columns: 1fr 1fr;
     width: 90vw;
-    height: 1000px; }
+    height: 1400px; }
     #project-list .box {
       width: 40vw;
       height: 300px; }
