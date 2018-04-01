@@ -1,8 +1,9 @@
 <head>
 <title>Marlon Pempengco</title>
 <link rel="stylesheet" href="style.css">
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Handlee|Timmana" rel="stylesheet">
 <script
@@ -25,7 +26,7 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/Portfolio/">Marlon Pempengco</a>
     </div>
@@ -33,9 +34,9 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="/Portfolio/">Home</a></li>
         <li><a href="about.php">About</a></li>
-        <li><a href="projects.php">&#60;&sol;&gt;Projects</a></li> 
-        <li><a href="#">Blog</a></li> 
-		<li><a href="contact.php">Contact</a></li> 
+        <li><a href="projects.php">&#60;&sol;&gt;Projects</a></li>
+        <li><a href="#">Blog</a></li>
+		<li><a href="contact.php">Contact</a></li>
       </ul>
     </div>
   </div>
