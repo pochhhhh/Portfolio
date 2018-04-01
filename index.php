@@ -9,7 +9,7 @@
 
 <section id="homepage-header">
 
-<div id="selfie"> 
+<div id="selfie">
 
 <img src="images/selfie.jpeg">
 
