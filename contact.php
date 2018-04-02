@@ -6,6 +6,7 @@ $message = "";
 $subject = "Someone has viewed your portfolio and sent you a message!";
 $messageBackground = "";
 $formHeaderMessage = "Have something to share? Please do – I’d love to hear it!";
+$borderColor = "";
 
 
 if(filter_has_var(INPUT_POST, "submit")){
@@ -32,6 +33,7 @@ mail("marlonpempengco@gmail.com", $subject, $emailOutput);
 
 $messageBackground = "#ef5353";
 $formHeaderMessage = "Please validate email address";
+$borderColor = "3px solid #ef5353";
 
 } else {
 
@@ -70,7 +72,7 @@ $formHeaderMessage = "Please fill in all fields";
 
 <input type="text" name="name" placeholder="Name"></input>
 
-<input type="text" name="email" placeholder="Email"></input>
+<input type="text" name="email" placeholder="Email" style="border: <?php echo $borderColor;?>"></input>
 
 <textarea name="message" placeholder="Message"></textarea>
 

@@ -24,7 +24,7 @@ About</h3></section>
 
 <div class="button-panel">
 
-<div class="button button1">
+<div id="show-skills" class="button button1">
 
 <i class="fa fa-wrench fa-2x"></i>
 <i class="fa fa-paint-brush fa-2x"></i>
@@ -33,13 +33,13 @@ About</h3></section>
 
 </div>
 
-<div class="button button2">
+<div id="show-location" class="button button2">
 
 <i class="fa fa-map-marker fa-2x"></i>
 
 </div>
 
-<div class="button button3">
+<div id="show-interests" class="button button3">
 
 <i class="fa fa-star fa-2x"></i>
 
@@ -47,7 +47,7 @@ About</h3></section>
 
 </div>
 
-<div class="button button4">
+<div id="show-coffee" class="button button4">
 
 <i class="fa fa-coffee fa-2x"></i>
 
@@ -62,7 +62,7 @@ About</h3></section>
 
 <div id="info-text-box">
 
-<p>I'm a front end developer learning to become a badman fullstack. I enjoy working with JavaScript and PHP.</p>
+<p id="info-text">I'm a front end developer learning to become a badman fullstack. I enjoy working with JavaScript and PHP.</p>
 
 
 <div class="button"><p>More</p></div>

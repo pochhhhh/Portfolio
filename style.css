@@ -364,7 +364,8 @@ section {
   width: 80vw;
   display: grid;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  top: -15px; }
 
 /* Contact page mobile first */
 #contact-title-header {
@@ -401,7 +402,7 @@ form {
     color: white;
     font-size: 20px;
     position: relative;
-    top: 6px; }
+    top: 15px; }
 
 input {
   background: #EEEEEE; }
@@ -441,13 +442,6 @@ textarea {
     background-size: 100% 100%;
     opacity: 0.6; }
 
-.hover-layer {
-  height: 30vh;
-  width: 80vw;
-  display: grid;
-  position: relative;
-  z-index: 1; }
-
 .project-name {
   position: relative;
   top: -190px;
@@ -483,7 +477,7 @@ textarea {
 
   .project-name {
     width: 40vw;
-    top: -300px;
+    top: -290px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: relative; }
@@ -496,7 +490,7 @@ textarea {
     width: 40vw;
     height: 50px;
     position: relative;
-    top: -150px;
+    top: -120px;
     text-align: left; }
 
   .fab {

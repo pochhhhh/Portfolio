@@ -13,3 +13,4 @@
 <p>© 2018 Marlon Pempengco</p>
 
 </footer>
+<script src="scripts.js"></script>

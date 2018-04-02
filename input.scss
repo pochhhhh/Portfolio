@@ -728,6 +728,7 @@ margin: 0 auto;
   display: grid;
   position:relative;
   z-index:1;
+  top:-15px;
 }
 
 /* Contact page mobile first */
@@ -786,7 +787,7 @@ p{
 color:white;
 font-size:20px;
 position:relative;
-top:6px;
+top:15px;
 
 }
 
@@ -854,13 +855,6 @@ margin: 0 auto;
 
 }
 
-.hover-layer {
-   height:30vh;
-  width:80vw;
-  display: grid;
-  position:relative;
-  z-index:1;
-}
 
 .project-name{
 
@@ -925,12 +919,14 @@ height: 300px;
 }
 
 
+
+
 }
 
 .project-name{
 
 width:40vw;
-top:-300px;
+top:-290px;
 display: grid;
 grid-template-columns: 1fr 1fr;
 position: relative;
@@ -950,7 +946,7 @@ visibility: visible;
 width:40vw;
 height:50px;
 position: relative;
-top:-150px;
+top:-120px;
 text-align: left;
 
 
