@@ -55,7 +55,7 @@ $formHeaderMessage = "Please fill in all fields";
 
 <section class="sub-header" id="contact-title-header">
 
-<h3><i class="fa fa-envelope"></i>Contact</h3>
+<h3><i class="fa fa-envelope"></i> Contact</h3>
 
 
 </section>

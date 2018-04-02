@@ -7,7 +7,7 @@
 <?php require("header.php");?>
 
 
-<section class="sub-header" id="projects-title-header"><h3>&#60;&sol;&gt;Projects</h3></section>
+<section class="sub-header" id="projects-title-header"><h3>&#60;&sol;&gt; Projects</h3></section>
 
 
 <section id="project-list">

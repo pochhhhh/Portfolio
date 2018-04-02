@@ -32,11 +32,11 @@
     </div>
     <div class="navbar-right collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/Portfolio/">Home</a></li>
-        <li><a href="about.php"><i class="fa fa-user-circle"></i>About</a></li>
-        <li><a href="projects.php">&#60;&sol;&gt;Projects</a></li>
-        <li><a href="#"><i class="fa fa-comment"></i>Blog</a></li>
-		<li><a href="contact.php"><i class="fa fa-envelope"></i>Contact</a></li>
+        <li class="active"><a href="/Portfolio/"> Home</a></li>
+        <li><a href="about.php"><i class="fa fa-user-circle"></i> About</a></li>
+        <li><a href="projects.php">&#60;&sol;&gt; Projects</a></li>
+        <li><a href="#"><i class="fa fa-comment"></i> Blog</a></li>
+		<li><a href="contact.php"><i class="fa fa-envelope"></i> Contact</a></li>
       </ul>
     </div>
   </div>
