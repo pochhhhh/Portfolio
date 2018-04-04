@@ -494,6 +494,9 @@ textarea {
 
 /* Projects media queries */
 @media (min-width: 768px) {
+  .project-github-logo {
+    top: 10px !important; }
+
   #projects-title-header h3 {
     position: relative;
     top: 70px; }
