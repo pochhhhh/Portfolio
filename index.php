@@ -11,7 +11,7 @@
 
 <div id="selfie">
 
-<img src="images/selfie.jpeg">
+<a href="<?php echo $_SERVER['PHP_SELF'];?>"><img src="images/selfie.jpeg"></a>
 
 </div>
 
