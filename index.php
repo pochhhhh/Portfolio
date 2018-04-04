@@ -58,15 +58,15 @@ About</h3>
 </div>
 
 
-<div class="menu-grid-item grid-item-4">
+<!--<div class="menu-grid-item grid-item-4">
 <a href="#">
 <div class="bg-image blog"></div>
 <div class="fader"></div>
 <h3><i class="fa fa-comment"></i>Blog</h3>
 </a>
-</div>
+</div>-->
 
-<div class="menu-grid-item grid-item-5">
+<div class="menu-grid-item grid-item-5 social-media-button">
 <a href="https://www.freecodecamp.org/pochhhhh" target="_blank">
 <div class="bg-image"></div>
 <div class="fader"></div>
@@ -75,7 +75,7 @@ About</h3>
 </div>
 
 
-<div class="menu-grid-item grid-item-6">
+<div class="menu-grid-item grid-item-6 social-media-button">
 <a href="https://codepen.io/pochhhhh/" target="_blank">
 <div class="bg-image"></div>
 <div class="fader"></div>
@@ -83,7 +83,7 @@ About</h3>
 </a>
 </div>
 
-<div class="menu-grid-item grid-item-7">
+<div class="menu-grid-item grid-item-7 social-media-button">
 <a href="https://github.com/pochhhhh" target="_blank">
 <div class="bg-image"></div>
 <div class="fader"></div>
@@ -94,7 +94,7 @@ About</h3>
 </div>
 
 
-<div class="menu-grid-item grid-item-8">
+<div class="menu-grid-item grid-item-8 social-media-button">
 <a href="#">
 <div class="bg-image"></div>
 <div class="fader"></div>

@@ -226,10 +226,23 @@ section {
     height: 140px; }
 
   .grid-item-7 {
-    height: 140px; }
+    height: 140px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    position: relative;
+    top: -140px; }
 
   .grid-item-8 {
-    height: 140px; } }
+    height: 140px;
+    position: relative;
+    top: -140px; }
+
+  .social-media-button {
+    height: 120px; } }
+.fa-4x {
+  position: relative;
+  top: 30px !important; }
+
 /*About Page Mobile First*/
 #about-title-header {
   height: 120px;
