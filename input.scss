@@ -929,7 +929,7 @@ color:white !important;
 
 text-align: right;
 position: relative;
-top:5px;
+top:5px !important;
 right:10px;
 }
 
@@ -953,11 +953,6 @@ visibility: hidden;
 /* Projects media queries */
 @media(min-width:768px){
 
-  .project-github-logo{
-
-top:10px !important;
-
-  }
 
 #projects-title-header{
 
@@ -1014,7 +1009,7 @@ visibility: visible;
 width:40vw;
 height:50px;
 position: relative;
-top:-120px;
+top:-160px;
 text-align: left;
 
 

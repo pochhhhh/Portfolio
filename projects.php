@@ -46,7 +46,7 @@
     <div class="project-image" style="background-image: url('https://preview.ibb.co/iGdQuG/Screen_Shot_2018_01_21_at_11_41_27.png');"></div>
     <div class="hover-layer">
     <div class="project-name"><h1>JavaScript Calculator</h1><i class="project-github-logo fa fa-github fa-4x"></i></div>
-    <div class="technologies"><i class="fab fa-js fa-4x"></i>
+    <div class="technologies"><i style="position:relative; top:30px !important;" class="fab fa-js fa-4x"></i>
 
 </div>
     </div>
