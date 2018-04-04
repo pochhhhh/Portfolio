@@ -24,7 +24,7 @@ About</h3></section>
 
 <div class="button-panel">
 
-<div id="show-skills" class="button button1">
+<div id="show-skills" class="button active">
 
 <i class="fa fa-wrench fa-2x"></i>
 <i class="fa fa-paint-brush fa-2x"></i>
@@ -33,13 +33,13 @@ About</h3></section>
 
 </div>
 
-<div id="show-location" class="button button2">
+<div id="show-location" class="button">
 
 <i class="fa fa-map-marker fa-2x"></i>
 
 </div>
 
-<div id="show-interests" class="button button3">
+<div id="show-interests" class="button">
 
 <i class="fa fa-star fa-2x"></i>
 
@@ -47,7 +47,7 @@ About</h3></section>
 
 </div>
 
-<div id="show-coffee" class="button button4">
+<div id="show-coffee" class="button">
 
 <i class="fa fa-coffee fa-2x"></i>
 

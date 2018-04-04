@@ -258,6 +258,8 @@ section {
   #interactive-panel .button-panel {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; }
+  #interactive-panel .active {
+    background: black !important; }
   #interactive-panel .button {
     background: #4B4B4B;
     margin: 5px;

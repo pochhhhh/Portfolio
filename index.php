@@ -40,12 +40,12 @@ About</h3>
 
 
 <div class="menu-grid-item grid-item-2">
-<a href="#">
-<div class="bg-image blog"></div>
+<a href="projects.php">
+<div class="bg-image projects"></div>
 <div class="fader"></div>
 <h3><i class="fa fa-comment"></i>
 
-Blog</h3>
+&#60;&sol;&gt;Projects</h3>
 </a>
 </div>
 
@@ -59,10 +59,10 @@ Blog</h3>
 
 
 <div class="menu-grid-item grid-item-4">
-<a href="projects.php">
-<div class="bg-image projects"></div>
+<a href="#">
+<div class="bg-image blog"></div>
 <div class="fader"></div>
-<h3>&#60;&sol;&gt;Projects</h3>
+<h3>Blog</h3>
 </a>
 </div>
 
