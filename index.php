@@ -43,7 +43,7 @@ About</h3>
 <a href="projects.php">
 <div class="bg-image projects"></div>
 <div class="fader"></div>
-<h3><i class="fa fa-comment"></i>
+<h3>
 
 &#60;&sol;&gt;Projects</h3>
 </a>
@@ -62,7 +62,7 @@ About</h3>
 <a href="#">
 <div class="bg-image blog"></div>
 <div class="fader"></div>
-<h3>Blog</h3>
+<h3><i class="fa fa-comment"></i>Blog</h3>
 </a>
 </div>
 
