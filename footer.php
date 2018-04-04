@@ -2,7 +2,7 @@
 
 <div id="footer-list">
 
-<!--<div class="footer-list-item"><a href="#">Blog</a></div>-->
+<div class="footer-list-item"><a href="index.php">Home</a></div>
 <div class="footer-list-item"><a href="about.php">About</a></div>
 <div class="footer-list-item"><a href="projects.php">Projects</a></div>
 <div class="footer-list-item"><a href="contact.php">Contact</a></div>
