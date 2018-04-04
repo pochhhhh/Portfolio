@@ -3,6 +3,9 @@ body {
   width: 100vw;
   text-align: center; }
 
+.sub-header {
+  margin-top: 100px; }
+
 /*Homepage Mobile First*/
 section {
   margin-top: 15px;
@@ -12,7 +15,8 @@ section {
 #selfie {
   margin: auto;
   height: 250px;
-  width: 240px; }
+  width: 240px;
+  margin-top: 70px; }
   #selfie img {
     height: 100%;
     width: 100%; }
@@ -26,7 +30,7 @@ section {
 
 .sub-header h3 {
   position: relative;
-  top: 25px;
+  top: 40px;
   font-size: 40px;
   color: white;
   font-family: 'Timmana', sans-serif; }
@@ -107,7 +111,7 @@ section {
   #name h3 {
     font-family: 'Timmana', sans-serif; }
 
-.navbar-default {
+.navbar-inverse {
   box-shadow: 2px 5px #4B4B4B; }
 
 .navbar-brand {
@@ -143,6 +147,13 @@ section {
 
 /* Homepage Media Queries */
 @media (min-width: 480px) {
+  #selfie {
+    margin-top: 0px; }
+
+  #homepage-header {
+    position: relative;
+    top: 80px; }
+
   #name h1 {
     font-size: 30px;
     position: relative;
@@ -168,6 +179,7 @@ section {
       height: 100%; }
 
   #homepage-menu {
+    margin-top: 80px !important;
     height: 700px;
     max-width: 80vw;
     margin: 0 auto;
@@ -336,7 +348,7 @@ section {
   background-size: 100% 100%; }
   #projects-title-header h3 {
     position: relative;
-    top: 70px;
+    top: 50px;
     color: white; }
 
 #project-list {
@@ -467,6 +479,10 @@ textarea {
 
 /* Projects media queries */
 @media (min-width: 768px) {
+  #projects-title-header h3 {
+    position: relative;
+    top: 70px; }
+
   #project-list {
     grid-template-columns: 1fr 1fr;
     width: 90vw;
