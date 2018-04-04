@@ -62,8 +62,7 @@ About</h3></section>
 
 <div id="info-text-box">
 
-<p id="info-text">I'm a front end developer learning to become a badman fullstack. I enjoy working with JavaScript and PHP.</p>
-
+<p id="info-text">I'm a web developer that enjoys building web applications with JavaScript. I also have some experience with PHP and enjoy learning about MVC architecture.</p>
 
 <div class="button"><p>More</p></div>
 
