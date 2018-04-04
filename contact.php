@@ -1,8 +1,6 @@
 <?php
 
-$name = "";
-$email = "";
-$message = "";
+
 $subject = "Someone has viewed your portfolio and sent you a message!";
 $messageBackground = "";
 $formHeaderMessage = "Have something to share? Please do – I’d love to hear it!";
@@ -11,37 +9,54 @@ $borderColor = "";
 
 if(filter_has_var(INPUT_POST, "submit")){
 
-if(!empty($_POST["name"]) && !empty($_POST["message"]) && !empty($_POST["email"])){
+//Get Form Data
 
-if(filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)){
+$name = $_POST["name"];
+$email = $_POST["email"];
+$message = $_POST["message"];
 
+// Check Required Fields
+
+if(!empty($name) && !empty($email) && !empty($message)){
+	
+	//Passed
+	//Check Email
+	
+	if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
+		
+		//Failed email
+$messageBackground = "#ef5353";
+$formHeaderMessage = "Please validate email address";
+$borderColor = "3px solid #ef5353";
+		
+	} else {
+		
+		//Passed email
 $messageBackground = "#5abc5c";
 $formHeaderMessage = "Thank you for your message!";
 $name = $_POST["name"];
 $email = $_POST["email"];
 $message = $_POST["message"];
 $emailOutput = "
-
 From: $name
 Email Address: $email
 $message";
-
 mail("marlonpempengco@gmail.com", $subject, $emailOutput);
-
-
-} else
-
-$messageBackground = "#ef5353";
-$formHeaderMessage = "Please validate email address";
-$borderColor = "3px solid #ef5353";
-
+		
+	}
+	
 } else {
-
+	
+	//Failed
+	//Please fill in all fields
 
 $messageBackground = "#ef5353";
 $formHeaderMessage = "Please fill in all fields";
 
+	
+	
 }
+
 
 }
 
