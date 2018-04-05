@@ -12,8 +12,11 @@ $("#show-location").removeClass("active");
 $("#show-interests").removeClass("active");
 $("#show-coffee").removeClass("active");
 $("#more-button").removeClass("hidden");
-$("#info-text").html("I'm a web developer that enjoys building web applications with JavaScript. I also have some experience with PHP and enjoy learning about MVC architecture.");
-
+$("#info-text").fadeOut(function(){
+	
+	$(this).html("I'm a web developer that enjoys building web applications with JavaScript. I also have some experience with PHP and enjoy learning about MVC architecture.").fadeIn();
+	
+});
 
 })
 
@@ -26,9 +29,11 @@ $("#show-skills").removeClass("active");
 $("#show-interests").removeClass("active");
 $("#show-coffee").removeClass("active");
 $("#more-button").removeClass("hidden");
-
-$("#info-text").html("I am from the UK, based in London - A city which hardly needs any introduction ;)");
-
+$("#info-text").fadeOut(function(){
+	
+	$(this).html("I am from the UK, based in London - A city which hardly needs any introduction ;)").fadeIn();
+	
+});
 })
 
 $("#show-interests").click(function(){
@@ -40,8 +45,11 @@ $("#show-skills").removeClass("active");
 $("#show-location").removeClass("active");
 $("#show-coffee").removeClass("active");
 $("#more-button").removeClass("hidden");
-$("#info-text").html("I am a passionate piano player and also enjoy powerlifting in my spare time!");
-
+$("#info-text").fadeOut(function(){
+	
+	$(this).html("I am a passionate piano player and also enjoy powerlifting in my spare time!").fadeIn();
+	
+});
 
 })
 
@@ -49,12 +57,18 @@ $("#show-coffee").click(function(){
 
 active = 3;
 
+$("#more-button").addClass("hidden");
 $(this).addClass("active");
 $("#show-skills").removeClass("active");
 $("#show-location").removeClass("active");
 $("#show-interests").removeClass("active");
-$("#info-text").html("I like my coffee black and sugarless :)");
-$("#more-button").addClass("hidden");
+
+$("#info-text").fadeOut(function(){
+	
+	$(this).html("I like my coffee black and sugarless :)").fadeIn();
+	
+});
+
 
 })
 
@@ -82,7 +96,7 @@ switch(active){
 	
 	case 0:
 	
-	$("#show-skills").addClass("active");
+$("#show-skills").addClass("active");
 $("#show-location").removeClass("active");
 $("#show-interests").removeClass("active");
 $("#show-coffee").removeClass("active");
@@ -100,7 +114,11 @@ $("#show-interests").removeClass("active");
 $("#show-coffee").removeClass("active");
 $("#more-button").removeClass("hidden");
 
-$("#info-text").html("I am from the UK, based in London - A city which hardly needs any introduction ;)");
+$("#info-text").fadeOut(function(){
+	
+	$(this).html("I am from the UK, based in London - A city which hardly needs any introduction ;)").fadeIn();
+	
+});
 
 	
 	break;
@@ -112,19 +130,27 @@ $("#show-skills").removeClass("active");
 $("#show-location").removeClass("active");
 $("#show-coffee").removeClass("active");
 $("#more-button").removeClass("hidden");
-$("#info-text").html("I am a passionate piano player and also enjoy powerlifting in my spare time!");
+
+$("#info-text").fadeOut(function(){
 	
+	$(this).html("I am a passionate piano player and also enjoy powerlifting in my spare time!").fadeIn();
+	
+});
 	break;
 	
 	case 3:
 	
-	$("#show-coffee").addClass("active");
+$("#more-button").addClass("hidden");
+$("#show-coffee").addClass("active");
 $("#show-skills").removeClass("active");
 $("#show-location").removeClass("active");
 $("#show-interests").removeClass("active");
-$("#info-text").html("I like my coffee black and sugarless :)");
-$("#more-button").addClass("hidden");
 	
+$("#info-text").fadeOut(function(){
+	
+	$(this).html("I like my coffee black and sugarless :)").fadeIn();
+	
+});
 	
 }
 
