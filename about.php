@@ -64,7 +64,7 @@ About</h3></section>
 
 <p id="info-text">I'm a web developer that enjoys building web applications with JavaScript. I also have some experience with PHP and enjoy learning about MVC architecture.</p>
 
-<div class="button"><p>More</p></div>
+<div id="more-button" class="button"><p>More</p></div>
 
 
 </div>

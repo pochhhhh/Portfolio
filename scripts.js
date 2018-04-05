@@ -1,13 +1,17 @@
 //About Page scripts:
 
 var greyButton = "#4B4B4B";
+var active = 0;
 
 $("#show-skills").click(function(){
 
-$(this).css("background", "black");
-$("#show-location").css("background", greyButton);
-$("#show-interests").css("background", greyButton);
-$("#show-coffee").css("background", greyButton);
+active = 0;
+
+$(this).addClass("active");
+$("#show-location").removeClass("active");
+$("#show-interests").removeClass("active");
+$("#show-coffee").removeClass("active");
+$("#more-button").removeClass("hidden");
 $("#info-text").html("I'm a web developer that enjoys building web applications with JavaScript. I also have some experience with PHP and enjoy learning about MVC architecture.");
 
 
@@ -15,22 +19,27 @@ $("#info-text").html("I'm a web developer that enjoys building web applications 
 
 $("#show-location").click(function(){
 
-$(this).css("background", "black");
+active = 1;
+
+$(this).addClass("active");
 $("#show-skills").removeClass("active");
-$("#show-skills").css("background", greyButton);
-$("#show-interests").css("background", greyButton);
-$("#show-coffee").css("background", greyButton);
+$("#show-interests").removeClass("active");
+$("#show-coffee").removeClass("active");
+$("#more-button").removeClass("hidden");
+
 $("#info-text").html("I am from the UK, based in London - A city which hardly needs any introduction ;)");
 
 })
 
 $("#show-interests").click(function(){
 
-$(this).css("background", "black");
+active = 2;
+
+$(this).addClass("active");
 $("#show-skills").removeClass("active");
-$("#show-skills").css("background", greyButton);
-$("#show-location").css("background", greyButton);
-$("#show-coffee").css("background", greyButton);
+$("#show-location").removeClass("active");
+$("#show-coffee").removeClass("active");
+$("#more-button").removeClass("hidden");
 $("#info-text").html("I am a passionate piano player and also enjoy powerlifting in my spare time!");
 
 
@@ -38,11 +47,86 @@ $("#info-text").html("I am a passionate piano player and also enjoy powerlifting
 
 $("#show-coffee").click(function(){
 
-$(this).css("background", "black");
+active = 3;
+
+$(this).addClass("active");
 $("#show-skills").removeClass("active");
-$("#show-skills").css("background", greyButton);
-$("#show-interests").css("background", greyButton);
-$("#show-location").css("background", greyButton);
+$("#show-location").removeClass("active");
+$("#show-interests").removeClass("active");
 $("#info-text").html("I like my coffee black and sugarless :)");
+$("#more-button").addClass("hidden");
 
 })
+
+$("#more-button").click(function(){
+	
+switch(active){
+	
+	case 0:
+	case 1:
+	case 2:
+	
+	active++;
+	
+	break;
+	
+	case 3:
+	{
+		alert("end");
+		
+	}
+	
+}
+
+switch(active){
+	
+	case 0:
+	
+	$("#show-skills").addClass("active");
+$("#show-location").removeClass("active");
+$("#show-interests").removeClass("active");
+$("#show-coffee").removeClass("active");
+$("#more-button").removeClass("hidden");
+$("#info-text").html("I'm a web developer that enjoys building web applications with JavaScript. I also have some experience with PHP and enjoy learning about MVC architecture.");
+
+
+	break;
+	
+	case 1:
+	
+	$("#show-location").addClass("active");
+$("#show-skills").removeClass("active");
+$("#show-interests").removeClass("active");
+$("#show-coffee").removeClass("active");
+$("#more-button").removeClass("hidden");
+
+$("#info-text").html("I am from the UK, based in London - A city which hardly needs any introduction ;)");
+
+	
+	break;
+	
+	case 2:
+	
+	$("#show-interests").addClass("active");
+$("#show-skills").removeClass("active");
+$("#show-location").removeClass("active");
+$("#show-coffee").removeClass("active");
+$("#more-button").removeClass("hidden");
+$("#info-text").html("I am a passionate piano player and also enjoy powerlifting in my spare time!");
+	
+	break;
+	
+	case 3:
+	
+	$("#show-coffee").addClass("active");
+$("#show-skills").removeClass("active");
+$("#show-location").removeClass("active");
+$("#show-interests").removeClass("active");
+$("#info-text").html("I like my coffee black and sugarless :)");
+$("#more-button").addClass("hidden");
+	
+	
+}
+
+
+});
