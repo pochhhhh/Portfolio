@@ -156,3 +156,22 @@ $("#info-text").fadeOut(function(){
 
 
 });
+
+//Projects page scripts:
+
+$("#project-a").mouseenter(function(){
+
+//$("#project-simon-game").removeClass("hidden");
+
+
+
+
+
+
+$("#project-a").mouseleave(function(){
+
+$("#project-simon-game").addClass("hidden");
+	
+});
+	
+});

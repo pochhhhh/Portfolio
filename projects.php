@@ -16,8 +16,8 @@
 
     <div class="project-image" style="background-image: url('https://preview.ibb.co/kTSw1w/Screen_Shot_2018_01_21_at_11_24_44.png');"></div>
     <div class="hover-layer">
-    <div class="project-name"><h1>Simon Game</h1><i class="project-github-logo fa fa-github fa-4x"></i></div>
-    <div class="technologies">
+    <div class="project-name hidden"><h1>Simon Game</h1><i class="project-github-logo fa fa-github fa-4x"></i></div>
+    <div class="technologies hidden">
 <i class="fab fa-js fa-4x"></i>
 </div>
     </div>
