@@ -161,17 +161,15 @@ $("#info-text").fadeOut(function(){
 
 $("#project-a").mouseenter(function(){
 
-//$("#project-simon-game").removeClass("hidden");
+$("#simon-game").removeClass("hidden");
+$("#simon-game-tech").removeClass("hidden");
 
-
-
-
-
-
-$("#project-a").mouseleave(function(){
-
-$("#project-simon-game").addClass("hidden");
+$(this).mouseleave(function(){
+	
+$("#simon-game").addClass("hidden");
+$("#simon-game-tech").addClass("hidden");
 	
 });
+
 	
 });
