@@ -160,16 +160,97 @@ $("#info-text").fadeOut(function(){
 //Projects page scripts:
 
 $("#project-a").mouseenter(function(){
+	
+	
 
-$("#simon-game").removeClass("hidden");
-$("#simon-game-tech").removeClass("hidden");
+$("#" + this.id + " div:nth-child(2)").removeClass("hidden");
+
 
 $(this).mouseleave(function(){
 	
-$("#simon-game").addClass("hidden");
-$("#simon-game-tech").addClass("hidden");
+	
+$("#" + this.id + " div:nth-child(2)").addClass("hidden");
+
 	
 });
 
 	
 });
+
+$("#project-b").mouseenter(function(){
+	
+	
+
+$("#" + this.id + " div:nth-child(2)").removeClass("hidden");
+
+
+$(this).mouseleave(function(){
+	
+	
+$("#" + this.id + " div:nth-child(2)").addClass("hidden");
+
+	
+});
+
+	
+});
+
+$("#project-c").mouseenter(function(){
+	
+	
+
+$("#" + this.id + " div:nth-child(2)").removeClass("hidden");
+
+
+$(this).mouseleave(function(){
+	
+	
+$("#" + this.id + " div:nth-child(2)").addClass("hidden");
+
+	
+});
+
+	
+});
+
+$("#project-d").mouseenter(function(){
+	
+	
+
+$("#" + this.id + " div:nth-child(2)").removeClass("hidden");
+
+
+$(this).mouseleave(function(){
+	
+	
+$("#" + this.id + " div:nth-child(2)").addClass("hidden");
+
+	
+});
+
+	
+});
+
+$("#project-e").mouseenter(function(){
+	
+	
+
+$("#" + this.id + " div:nth-child(2)").removeClass("hidden");
+
+
+$(this).mouseleave(function(){
+	
+	
+$("#" + this.id + " div:nth-child(2)").addClass("hidden");
+
+	
+});
+
+	
+});
+
+
+
+
+
+
