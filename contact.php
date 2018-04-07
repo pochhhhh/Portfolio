@@ -3,7 +3,7 @@
 
 $subject = "Someone has viewed your portfolio and sent you a message!";
 $messageBackground = "";
-$formHeaderMessage = "Have something to share? Please do – I’d love to hear it!";
+$formHeaderMessage = "If you would like to work with me or have any enquries please feel free to fill out the form below!";
 $borderColor = "";
 
 
@@ -18,19 +18,19 @@ $message = $_POST["message"];
 // Check Required Fields
 
 if(!empty($name) && !empty($email) && !empty($message)){
-	
+
 	//Passed
 	//Check Email
-	
+
 	if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
-		
+
 		//Failed email
 $messageBackground = "#ef5353";
 $formHeaderMessage = "Please validate email address";
 $borderColor = "3px solid #ef5353";
-		
+
 	} else {
-		
+
 		//Passed email
 $messageBackground = "#5abc5c";
 $formHeaderMessage = "Thank you for your message!";
@@ -42,19 +42,19 @@ From: $name
 Email Address: $email
 $message";
 mail("marlonpempengco@gmail.com", $subject, $emailOutput);
-		
+
 	}
-	
+
 } else {
-	
+
 	//Failed
 	//Please fill in all fields
 
 $messageBackground = "#ef5353";
 $formHeaderMessage = "Please fill in all fields";
 
-	
-	
+
+
 }
 
 
@@ -91,7 +91,7 @@ $formHeaderMessage = "Please fill in all fields";
 
 <textarea name="message" placeholder="Message"></textarea>
 
-<button type="submit" name="submit">Send</button>
+<button type="submit" name="submit"><p>Send</p></button>
 
 
 </form>
