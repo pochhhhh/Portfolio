@@ -456,6 +456,8 @@ textarea {
   height: auto;
   width: 80vw;
   margin: 0 auto; }
+  #project-list a {
+    text-decoration: none; }
   #project-list .box {
     margin: 0 auto;
     height: 200px;
