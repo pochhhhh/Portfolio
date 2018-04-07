@@ -977,6 +977,11 @@ visibility: hidden;
 
 /* Contact media queries */
 
+
+
+
+/* Projects media queries */
+
 @media(min-width:768px){
 
   #form-header-text{
@@ -985,10 +990,20 @@ font-size: 25px;
 
   }
 
-}
+  #project-a .technologies{
 
-/* Projects media queries */
-@media(min-width:768px){
+position: relative;
+top:-200px !important;
+
+
+  }
+
+  #project-e .technologies{
+
+    position: relative;
+    top:-200px !important;
+
+  }
 
 
 #projects-title-header{
@@ -1049,6 +1064,7 @@ height:50px;
 position: relative;
 top:-180px;
 text-align: left;
+
 
 
 
