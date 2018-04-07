@@ -95,7 +95,7 @@ About</h3>
 
 
 <div class="menu-grid-item grid-item-8 social-media-button">
-<a href="#">
+<a href="https://www.linkedin.com/in/marlon-pempengco-58398881/" target="_blank">
 <div class="bg-image"></div>
 <div class="fader"></div>
 <i class="fa fa-linkedin fa-4x"></i>
