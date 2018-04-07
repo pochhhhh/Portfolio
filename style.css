@@ -503,6 +503,11 @@ textarea {
   visibility: hidden; }
 
 /* Contact media queries */
+@media (min-width: 768px) {
+  #contact-form input {
+    width: 30vw;
+    margin: 0 auto;
+    height: 40px; } }
 /* Projects media queries */
 @media (min-width: 768px) {
   #form-header-text {
